@@ -1,0 +1,169 @@
+<html>
+<head>
+<style>
+    .ymenu,.dmenu{
+    list-style-type:none;
+    margin:10px;
+    border-radius:20px;
+    }
+    .dmenu{
+    position:absolute;
+    left:20px;
+    width:150px;
+    top:100px;
+    }
+    .ymenu ul{
+    position:absolute;
+    margin:10px;
+    left:30px;
+    }
+    .dmenu a{
+    margin-bottom:10px;
+    }
+    .ymenu ul,.dmenu ul{
+    list-style-type:none;
+    padding:10px;
+    margin:10px;
+    }
+    .ymenu a,.dmenu a{
+    font-size:20px;
+    display:block;
+    border-radius:20px;
+    background-color:darkblue;
+    color:white;
+    width:150px;
+    margin-left:10px;
+    font-family:'Comic Sans MS';
+    box-shadow:5px 5px black;
+    text-decoration:none;
+    text-align:center;
+    }
+    .ymenu a:hover,.dmenu a:hover{
+    background-color:red;
+    box-shadow:5px 5px lightgreen;
+    font-width:bold;
+    }
+    .ymenu li{
+    float:left;
+    }
+    .icerik{
+    background-color:lighteryellow;
+    width:900px;
+    height:400px;
+    position:absolute;
+    left:220px;
+    top:120px;
+    }
+    .header{
+    background-color:blue;
+    font-family:arial;
+    font-size:14pt;
+    color:white;
+    text-align:center;
+    margin:10px;
+	 width:100%;
+    }
+    .footer{
+    background-color:blue;
+    font-family:arial;
+    font-size:14pt;
+    color:white;
+    text-align:center;
+    margin:10px;	
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    }
+    .frm{
+    position:absolute;
+    left:190px;
+    top:119px;
+    }
+    .frmstyle{
+    background-color:lightgreen;
+    border-radius:30px;
+    box-shadow:10px 10px gray;
+    padding:10px;
+	width:180px;
+	height:120px;
+	font-style:italic;
+	font-family:'comic sans ms';
+    }
+    .btn{
+    background-color:lightgray;
+    color:blue;
+	font-style:italic;
+	font-weight:bold;
+    border-radius:10px;
+    padding:5px;
+    margin:10px;
+   }
+   .btn:hover{
+    background-color:blue;
+    color:white;
+    }
+    .btn:focus{
+    background-color:red;
+    color:white;
+    }
+	.mkutu{
+	background-color:lightblue;
+	border-radius:10px;
+	color:red;
+	font-size:10pt;
+	font-family:'courier new';
+	}
+    .mkutu:hover{
+	background-color:blue;
+	border-radius:10px;
+	font-style:bold;
+    }
+    .mkutu:focus{
+    background-color:white;
+	border-radius:10px;
+    }
+</style>
+</head>
+<body background="resimler/arkaplan.jpg">
+    <div class=header>
+    SİNCAN İMKB MESLEKİ VE TEKNİK ANADOLU LİSESİ<br>BİŞİŞİM TEKNOLOJİLERİ ALANI
+    </div>
+    <div class="ymenu">
+        <ul>
+           <li><a href="anasayfa.html">Anasayfa</a>
+           <li><a href="dp.html" target="cerceve">Ders Programı</a>
+           <li><a href="galeri.html" target="cerceve">Galeri</a>
+           <li><a href="alanlarimiz.html" target="cerceve">Alanlarımız</a>
+           <li><a href="#">Hakkımızda</a>
+           <li><a href="#">İletişim</a>
+        </ul>
+    </div>
+    <div class=icerik>
+    <iframe name=cerceve src="resimler/okul.jpg" width=100% height=100%> </iframe>
+    </div>
+    <div class="dmenu">
+        <ul>
+
+           <li><a href="dp.html" target="cerceve" >Ders Programı</a>
+           <li><a href="galeri.html" target="cerceve">Galeri</a>
+           <li><a href="alanlarimiz.html" target="cerceve">Alanlarımız</a>
+           <li><a href="#">Hakkımızda</a>
+           <li><a href="#">İletişim</a>
+        </ul>
+    </div>
+    <div style="position:absolute;left:px;top:340px;">
+    <form class="frmstyle">
+       <table style="color:white;font-size:10pt;">
+        <tr><td>Kullanıcı Adı
+      <input type="text" class="mkutu">
+        <tr><td>Şifre
+        <input type="password" class="mkutu">
+        <tr><td colspan=2 align="center"><input type="submit" value="Giriş" class="btn">
+        <input type="reset" value="Vazgeç" class="btn">
+       </table>
+    </div>
+<div class=footer>
+WEP TASARIMI VE PROGRAMLAMA DERSİ 1.DÖNEM 2.UYGULAMA SINAVI
+</div>
+</body>
+</html>
