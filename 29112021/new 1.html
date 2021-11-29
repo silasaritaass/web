@@ -1,0 +1,37 @@
+<html>
+<head>
+	<style>
+		@keyframes animasyon1{
+		0%{background-color:blue; top:100px; left:100px;}
+		12%{transform:scale(2)}
+		25%{ background-color:red; top:100px; left:900px;  transform:rotate(90deg);}
+		36%{transform:scale(2)}
+		50%{ background-color:yellow; top:500px; left:900px;  transform:rotate(180deg);}
+		62%{transform:scale(2)}
+		75%{ background-color:green; top:500px; left:100px;  transform:rotate(270deg);}
+		86%{transform:scale(2)}
+		100%{ background-color:brown; top:100px; left:100px;  transform:rotate(360deg);}
+		}
+		
+		.kutu{
+		background-color:blue;
+		width:100px;
+		height:100px;
+		position:absolute;
+		left:100px;
+		top:100px;
+		top:100px;
+		animation:animasyon1 4s infinite;
+		box-shadow:20px 20px 50px black;
+		}
+		
+		
+		
+	</style>
+</head>	
+<body>
+	<div class="kutu">
+	</div>
+</body>
+
+</html>

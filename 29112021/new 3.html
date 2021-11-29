@@ -1,0 +1,49 @@
+<html>
+<head>
+	<style>
+		@keyframes animasyon1{
+		0%{top:100px; left:100px; transform:rotate(0deg);}
+		12%{transform:scale(3)}
+		25%{top:100px; left:900px;  transform:rotate(90deg);}
+		36%{transform:scale(3)}
+		50%{ top:500px; left:900px;  transform:rotate(180deg);}
+		62%{transform:scale(3)}
+		75%{ top:500px; left:100px;  transform:rotate(270deg);}
+		86%{transform:scale(3)}
+		100%{top:100px; left:100px;  transform:rotate(360deg);}
+		}
+		
+		@keyframes animasyon2{
+		0%{top:100px; left:100px; transform:rotate(0deg);}
+		12%{transform:scale(3)}
+		25%{top:100px; left:900px;  transform:rotate(-90deg) scale(1);}
+		50%{ top:500px; left:900px;  transform:rotate(-180deg);}
+		62%{transform:scale(3)}
+		75%{ top:500px; left:1000px;  transform:rotate(-270deg) scale(1);}
+		100%{top:100px; left:1000px;  transform:rotate(-360deg);}
+		}
+		.ad{
+		color:blue;
+		font-size:25pt;
+		position:absolute;
+		left:100px;
+		top:100px;
+		animation:animasyon1 4sn infinite;
+		}
+		.soyad{
+		color:red;
+		font-size:25pt;
+		position:absolute;
+		left:1000px;
+		top:100px;
+		animation:animasyon2 4sn infinite;
+		
+		}
+	
+	</style>
+</head>
+<body>
+	<h1 class="ad">SILA</h1>
+	<h1 class="soyad">SARITAŞ</h1>
+</body>
+</html>
