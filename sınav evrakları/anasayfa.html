@@ -1,0 +1,131 @@
+<html>
+<head>
+<style>
+	.baslik{
+	position:absolute;
+	font-weight:bold;
+	font-family:'comic sans ms';
+	color:white;
+	text-align:center;
+	width:100%;
+	}
+	.ymenu,.dmenu{
+	pading:10px;
+	margin:10px;
+	}
+	.ymenu a,.dmenu a{
+	background-color:powderblue;
+	color:white;
+	border:3px solid powderblue;
+	text-align:center;
+	border-radius:10px;
+	display:block;
+	width:100px;
+	height:25px;
+	text-decoration:none;
+	margin-left:5px;
+	}
+	.ymenu a:hover,.dmenu a:hover{
+	background-color:white;
+	font-weight:bold;
+	color:red;
+	}
+	.dmenu{
+    position:absolute;
+    right:250px;
+    top:150px;
+	}
+	.ymenu li{
+	float:left;
+	}
+	.ymenu ul{
+    position:absolute;
+    margin:10px;
+    left:350px;
+	top:100px;
+    }
+	.dmenu a{
+    margin-bottom:5px;
+    }
+	.ymenu ul,.dmenu ul{
+	list-style-type:none;
+	}
+	.icerik{
+	position:absolute;
+	background-color:#fffacd;
+	left:400px;
+	top:150px;
+	width:500px;
+	height:400px;
+	}
+	.ymenu li ul{
+	position:absolute;
+	left:0px;
+	top:20px;
+	display:none;
+	z-index:1;
+	}
+	.ymenu li:hover
+	ul{
+	display:block
+	}
+	.ymenu li ul a{
+	margin-bottom:1px;	
+	}
+	.ymenu li{
+	position:relative;
+	}
+    .reklam{
+    position:relative;
+    height:100%;
+    left:-10px;
+    top:-10px;
+    width:100px;
+    opacity:0.5;
+    background-position:center center;
+    background-color:white;
+	background-image:url('resimler/once.jpg');
+	background-repeat:no-repeat;
+    }
+    .reklam:hover{
+    opacity:100;
+    background-color:white;
+    background-repeat:repeat-y;
+    background-image:url('resimler/sonra.jpg');
+    }
+</style>
+</head>
+<body background="resimler/arkaplanyeni.jpg">
+<div class="baslik">
+	WEB TASARIMI VE PROGRAMLAMA DERSİ<br>1.DÖNEM 2.UYGULAMA YAZILISI ÖĞRENCİNİN ADI SOYADI SINIFI NOSU
+</div>
+<div class="ymenu">
+	<ul>
+		<li><a href="#">DİV</a>
+		<li><a href="#">RENK</a>
+		<li><a href="#">Z-İNDEX</a>
+		<li><a href="#">KENARLIK</a>
+		<li><a href="#">İLETİŞİM</a>
+	<ul>
+		<li><a href="#">TEL</a>
+		<li><a href="#">FAX</a>
+		<li><a href="#">EMAİL</a>
+		<li><a href="#">MAP</a>
+	</ul>
+	</ul>
+</div>
+<div class="icerik">
+	<iframe name=cerceve width=100% height=100%> </iframe>
+</div>
+<div class="dmenu">
+	<ul>
+		<li><a target="cerceve" href="elektronik.pdf">PDF</a>
+		<li><a target="cerceve" href="dp.html">TABLO</a>
+		<li><a href="#">FLOAT</a>
+		<li><a href="#">LİSTE</a>
+	</ul>
+</div>
+<div class="reklam">
+</div>
+</body>
+</html>
