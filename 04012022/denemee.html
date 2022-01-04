@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+</head>
+<style>
+.btn{
+	background-color:#999;
+	color:black;
+	border-radius:15px;
+	padding:5px;
+	box-shadow:3px 3px 3px black;
+	width:100px;
+	height:35px;
+	}
+.btn:hover{
+	background-color:#069;
+	color:white;
+	cursor:pointer;
+	}
+.btn:active{
+	box-shadow:none;
+	}
+.txt{
+	background-color:white;
+	color:blue;
+	border-radius:10px;
+	}
+.txt:focus{
+	background-color:yellow;
+	}
+</style>
+<body bgcolor="#CCCCCC">
+<form style="position: absolute; width: 300px; border: 1px solid blue; background-color: #666; border-radius: 20px; color: white; left: 261px; top: 21px; box-shadow: 20px 20px 20px black;" id="form1" name="form1" method="post" action="">
+<fieldset  style="border:4px double white;border-radius:20px ">
+<legend style=" font-family:'Comic Sans MS', cursive; font-weight:bold; ;">ÜYE OL</legend>
+<fieldset  style="border:4px double white;border-radius:20px ">
+	<legend style=" font-family:'Comic Sans MS', cursive; font-weight:bold; ;">Kullanıcı Bilgileri</legend>
+<p>Kullanıcı Adı <br />
+<input class="txt" type="text" /><br /></p>
+<p>Şifre<br />
+<input class="txt" type="password" /><br /></p>
+<p>Şifre Yeniden<br />
+<input class="txt" type="password" /><br /></p>
+
+</fieldset>
+<fieldset  style="border:4px double white;border-radius:20px ">
+	<legend style=" font-family:'Comic Sans MS', cursive; font-weight:bold; ;">Kişisel Bilgileri</legend>
+<p>Ad Soyad <br />
+<input class="txt" type="text" /><br /></p>
+<p>Doğum Yeri<br />
+<input class="txt" list="list" />
+<datalist id="list">
+<option value="ANKARA">
+<option value="İSTANBUL">
+<option value="İZMİR">
+</fieldset>
+<p align="center"><input class="btn" name="Kaydet" type="submit" value="Kaydet"/>
+  <input class="btn" name="İptal" type="reset" />
+</fieldset>
+</form>
+</body>
+</html>
