@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Başlıksız Belge</title>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+.banner{
+	background-color:#DC0D0E;
+	width:900px;
+	height:180px;
+	opacity:0.8;
+	border-top-left-radius:25px;
+	border-top-right-radius:25px;
+	}
+.banneryazi{
+	float:left;
+	width:700px;
+	font-family:Segoe,"Segoe UI","DejaVu Sans","Trebuchet MS";
+	font-size:xx-large;
+	font-style:italic;
+	text-align:center;
+	line-height:70px;
+	font-weight:bolder;
+	color:#EFEFEF;
+	}
+.menu{
+	height:25px;
+	}
+.menu a{
+	display:block;
+	float:left;
+	width:150px;
+	height:25px;
+	color:black;
+	text-align:center;
+	font-weight:300;
+	font-family:"Dejavu Sans", Verdana,sans-serif;
+	background-color:#DDBBEE;
+	text-decoration:none;
+	line-height:25px;
+	}
+.menu a:hover{
+	font-weight:900;
+	background-color:#DC0B0E;
+	color: #DDBBEE;
+	opacity:0.5;
+	}
+.sol{
+	 width:150px;
+	 height:420px;
+	 float:left;
+	 background-color:#DBE;
+	 text-align:center;
+	 font-weight:bold; 
+	 font-family:'Comic Sans MS', cursive; 
+	 font-size:12px;
+	}
+.txt{
+	width:110px;
+	background-color:#ECECEC;
+	color:red;
+	}
+.txt:focus{
+	background-color:#D7F85B;
+	}
+.btn{
+	background-color:#DDBBEE;
+	border-radius:10px;
+	box-shadow:3px 3px 3px;
+	}
+.btn:hover{
+	background-color:#EB0;
+	}
+.btn:active{
+	box-shadow:none;
+	}
+.cer{
+	width:600px;
+	height:420px;
+	float:left;
+	border:none;
+	background-color:#DBE;
+	}
+.sağ{
+	width:150px;
+	height:420px;
+	float:left;
+	background-color:#DBE;
+	}
+.footer{
+	height:30px;
+	background-color:#DC0B0E;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	clear:both;
+	opacity:0.8;
+	font-size:14px;
+	color:#EFEFEF;
+	text-align:center;
+	font-weight:bold;
+	line-height:30px;
+	}
+</style>
+<body background="resimler/bg.jpg" >
+<div style="position:absolute; width:900px; left:150px;">
+	<div class="banner">
+    <img src="resimler/logo.png" style="width:150; height:150; margin:10px; float:left; " />
+    	<div class="banneryazi">
+        Sincan BİST ve Teknik Anadolu Lisesi
+        Bilişim Teknolojileri Alanı
+        </div>
+    </div>
+    <div class="menu">
+    	<a href="#">ANA SAYFA</a>
+        <a href="dersler.html" target="cerceve">DERSLER</a>
+        <a href="etkinlikler.html*" target="cerceve">ETKİNLİKLER</a>
+        <a href="#">ÜRÜNLER</a>
+        <a href="ögretmenler.html*" target="cerceve">ÖĞRETMENLER</a>
+        <a href="#">İLETİŞİM</a>
+    </div>
+   	<div class="sol">
+   
+    <p>ÜYE GİRİŞİ</p>
+    <HR />
+    <div style="width:130px; background-color:#C8FDF4;  border:1px solid #F80E12; margin:5px 3px; border-radius:10px; opacity:0.8; padding:5px;">
+    	<form >
+       <p> Henüz üye değilseniz lütfen üye olunuz</p>
+       <p style="text-align:left;">Kullanıcı Adı:<br />
+       <input type="text" class="txt" /></p>
+       <p style="text-align:left;">Parola:<br />
+       <input type="password" class="txt"/></p>
+       <input class="btn" type="submit" value="Giriş Yap" />
+        </form>
+    </div> 
+   
+    </div>
+    <iframe src="anasayfa.html" name="cerceve" scrolling="auto" class="cer" id="cerceve">
+    </iframe>
+    <div class="sağ">
+      <div id="Accordion1" class="Accordion" tabindex="0">
+        <div class="AccordionPanel">
+          <div class="AccordionPanelTab">Ortak Sınavlar</div>
+          <div class="AccordionPanelContent">1. Ortak sınavlar sona erdi. 30.11.2018<br />
+          </div>
+        </div>
+        <div class="AccordionPanel">
+          <div class="AccordionPanelTab">Web Sınavı</div>
+          <div class="AccordionPanelContent"> Aralık ayı ikinci haftasında Web Tasarım ve Programlama 2.sınavı yapılacaktır. Bilginize.04.12.2018<br />
+          </div>
+        </div>
+        <div class="AccordionPanel">
+          <div class="AccordionPanelTab">Performans</div>
+          <div class="AccordionPanelContent">25.12.2018 günü Web Performans sınavı yapılacaktır<br />
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="footer">
+    <marquee width="850">Web Tasarımı ve Programlama dersi 2021-2022 Eğitim Öğretim Yılı 1. Dönem 1. Performans Sınavı</marquee>
+  </div>
+</div>
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+</script>
+</body>
+</html>
